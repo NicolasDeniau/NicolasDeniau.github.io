@@ -21,6 +21,9 @@ h2 {
 
 h1, h2 {
     color:#E6EA46;
+}
+
+.nico {
     font-family: 'Press Start 2P', display;
 }
 
@@ -110,6 +113,27 @@ h1, h2 {
     height: 40px;
     background-size: cover;
 }
+
+.lien__github {
+    background-image: url("logo-2582757_640.png");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+/* @media (min-width: 600px) {
+    .container {
+        max-width: 40%;
+        font-size: 0.5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+} */
 
 .rocket {
     background-image: url("rocket-312767_640.png");
