@@ -19,6 +19,11 @@ h2 {
     text-shadow: 1px 1px 2px #fff;
 }
 
+h1, h2 {
+    color:#E6EA46;
+    font-family: 'Press Start 2P', display;
+}
+
 .rocket {
     width: 40px;
     height: 40px;
@@ -63,6 +68,7 @@ h2 {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-top: 5vh;
 }
 
@@ -74,6 +80,11 @@ h2 {
 
 .right-box {
     border-left: 1px solid #fff;
+    padding-left: 10px;
+}
+
+.left-box {
+    padding-left: 10px;
 }
 
 .lien__twitter {
@@ -99,6 +110,20 @@ h2 {
     height: 40px;
     background-size: cover;
 }
+
+.rocket {
+    background-image: url("rocket-312767_640.png");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+h1 a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 
