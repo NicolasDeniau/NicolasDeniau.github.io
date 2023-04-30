@@ -85,6 +85,7 @@ h1, h2 {
 
 .intro {
     border-bottom: 1px solid #fff;
+    text-align: center;
     padding: 0 10px 0 10px;
     margin-bottom: 10px;
 }
@@ -97,6 +98,8 @@ h1, h2 {
 .left-box {
     padding-left: 10px;
 }
+
+/* penser à supprimer les répétitions dans les liens, la classe lien est quasi identique, seulement changer l'url pour la classe lien__twitter */
 
 .lien__twitter {
     background-image: url("twitter_icon.png");
